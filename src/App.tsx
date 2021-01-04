@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import AddTodoForm from "./AddTodoForm";
+import AddTodoForm from "./Components/AddTodoForm";
 import "./style.css";
-import TodoList from "./TodoList";
+import TodoList from "./Components/TodoList";
 
 const initialTodos: Array<Todo> = [
   { text: "walking", complete: true },
